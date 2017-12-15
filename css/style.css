@@ -1,0 +1,317 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(183, 212, 239);
+    /*background: #fff;*/
+    background: url("../img/bg.gif") no-repeat 10%;
+    background-size: 110% 110%;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+ /*音乐*/
+ #music{
+     width:44px;
+     height: 44px;
+     position: fixed;
+     top:10px;
+     left: 80%;
+     z-index: 9;
+ }
+ .musicImg{
+     width: 44px;
+     height: 44px;
+     position: absolute;
+     top: 8px;
+     left: 8px;
+     animation: turn 6s infinite linear;
+ }
+ @keyframes turn {
+     0%
+     {
+         transform: rotate(0deg);
+     }
+     100%
+     {
+         transform: rotate(360deg);
+     }
+ }
+ .musicIg{
+     width: 44px;
+     height: 44px;
+ }
+ /*音乐结束*/
+
+/*  one   */
+.one-top{
+    width: 100%;
+    height: 40%;
+    top: -5%;
+    position: relative;
+}
+.one-top .un{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.one-top .one01,.one-top .one01 img{
+    width: 100%;
+    height: 80%;
+}
+.one-top .one02 img,.one-top .one05 img{
+    width: 70%;
+    height: 60%;
+    margin-top: 15%;
+}
+.one-top .one03 img{
+    width: 100%;
+    height: 100%;
+}
+.one-top .one04,.one-top .one04 img{
+    position: absolute;
+    top: 3%;
+    right: 2%;
+}
+.one-top .one05 img{
+    width: 73%;
+    margin-left: -2%;
+}
+.one-top .one06{
+    width: 70%;
+    margin-left: 12%;
+    margin-top: 6%;
+    font-size: 1em;
+    text-align: left;
+}
+.one-bottom{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 62%;
+    font-size: 1.2em;
+}
+/*  one结束   */
+/*  two */
+.two{
+    width: 94%;
+    height: 75%;
+    margin-top: 8%;
+    transform: rotateZ(0deg);
+    text-align: left;
+    border: 1.25px solid rgb(183, 212, 239);
+}
+.two-yi{
+    border: 1.25px dashed rgb(183, 212, 239);
+    width: 50%;
+    height: 8%;
+    line-height: 8%;
+    margin-left: 25%;
+    margin-top: -6%;
+    background-color: rgba(1,26,91,1);
+}
+.two-er{
+    border: 1.25px solid rgb(183, 212, 239);
+    width: 48%;
+    height: 8%;
+    margin-top: -12.5%;
+    margin-left: 26%;
+    background-color: rgba(1,26,91,0);
+}
+.twoImg{
+    width: 15%;
+    margin-top: -11%;
+}
+.twoImg img{
+    width: 100%;
+
+}
+.twoImg.twoImg01{
+    margin-left: 12%;
+}
+.twoImg.twoImg02{
+    margin-left: 68%;
+    margin-top: -18%;
+}
+.two-p{
+    padding: 5px;
+}
+.two-p p{
+    width: 80%;
+    margin-left: 10%;
+    line-height: 2em;
+}
+.two-p p:first-child{
+    width: 90%;
+    margin-left: 5%;
+}
+.two-p p:last-child{
+    width: 90%;
+    text-align: right;
+    margin-left: 0;
+}
+/*  two结束 */
+
+/*  three */
+.two-pImg,.two-pImg img{
+    height: 100%;
+    margin-left: 40%;
+    margin-top: -10%;
+    position: absolute;
+}
+.two-p.three-p{
+    width: 100%;
+    font-size: 0.9em;
+}
+ul{
+    height: 80%;
+}
+ul li{
+    list-style: none;
+    height: 10%;
+    line-height: 10%;
+}
+#lCul01{
+    width: 40%;
+    text-align: right;
+    position: absolute;
+    margin-left: 0;
+    padding: 2%;
+}
+#lCul02{
+    width: 20%;
+    position: absolute;
+    margin-left: 48%;
+    padding: 2%;
+    top: 1%;
+}
+#lI02{
+    margin-top: 5%;
+}
+#lCul02 li{
+    margin-top: 55%;
+}
+#lCul03{
+    width: 40%;
+    margin-left: 55%;
+    position: absolute;
+    padding: 2%;
+}
+#lCul01 li,#lCul03 li{
+    margin-top: 5%;
+}
+/*  three结束 */
+
+/*  four  */
+
+.two.four .twoImg.twoImg01{
+    margin-left: 7%;
+}
+.two.four .twoImg.twoImg02{
+    margin-left: 73%;
+    margin-top: -21%;
+}
+.two.four .twoImg {
+    width: 18%;
+}
+.four-p{
+    padding-left: 5%;
+}
+.colorRED{
+    color:  rgb(191, 76, 118);
+    margin: 0;
+    padding: 0;
+}
+.colorWHITE,.colorWHITE a{
+    color: rgb(183, 212, 239);
+}
+/*  four结束  */
+
+/*  five  */
+
+#allmap{
+    margin-left: 5%;
+    width: 90%;
+    height: 200px;
+}
+
+.two.five p,.two.five p a{
+    padding: 0;
+    font-size: 0.8em;
+    color:  rgb(183, 212, 239);
+    width: 90%;
+    margin-left: 5%;
+}
+
+/*  five结束  */
+/*  six  */
+.six-p{
+    padding: 5%;
+}
+.six-p input{
+    width: 100%;
+    height: 8%;
+}
+.six-p form{
+    width: 80%;
+    margin-left: 10%;
+}
+.six-p,.six-p form{
+    height: 100%;
+}
+.six-p form p{
+    height: 11%;
+}
+.six-p form p input{
+    height: 100%;
+}
+.six-p form p button{
+    width: 100%;
+    height: 80%;
+    font-size: 1.2em;
+    background: rgb(69, 147, 242);
+    color: rgb(183, 212, 239);
+}
+/*  six结束  */
+/*  seven  */
+.seven-p img{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.seven-p p{
+    width: 50%;
+    margin-left: 25%;
+    font-size: 1.5em;
+    text-align: center;
+}
+/*  seven结束  */
